@@ -29,7 +29,6 @@ class Snake:
         self.head.forward(MOVE_DISTANCE)
 
 
-
     def up(self):
         if self.head.heading() != DOWN:
             self.head.setheading(UP)
